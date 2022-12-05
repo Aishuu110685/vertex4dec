@@ -16,6 +16,6 @@ spec:
    spec:
       containers:
         - name: deployment-container
-          image: aishwarya5502/myjavaimage4dec22:1
+          image: aishwarya5502/myjavaimage4dec22:2
           ports:
           - containerPort: 8080
