@@ -6,15 +6,15 @@ spec:
    replicas: 3
    selector: 
      app: vertexapp
-     version: 2.6.1
+     #version: 2.6.1
    template: 
      metadata: 
        labels:
           app: vertexapp
-          version: 2.6.1
+          #version: 2.6.1
      spec: 
          containers:
          - name: mytomcat-container
-           image: aishwarya5502/myjavaimage3dec22:1
+           image: aishwarya5502/myjavaimage4dec22
            ports:
            - containerPort: 8080 
