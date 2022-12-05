@@ -8,12 +8,12 @@ spec:
   replicas: 3
   selector:
      matchLabels:
-      app: vertexapp
+       app: vertexapp
   template:
-    metadata: 
+   metadata: 
       labels:  
          app: vertexapp
-    spec:
+   spec:
       containers:
         - name: deployment-container
           image: aishwarya5502/myjavaimage4dec22:1
